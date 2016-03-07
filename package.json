@@ -1,0 +1,43 @@
+{
+  "name": "APT508-BE",
+  "version": "1.0.0",
+  "description": "Backend for my apartment manager",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "lab -c -L",
+    "test-cover": "lab -c -r html -o ./test/artifacts/coverage.html && open ./test/artifacts/coverage.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Jeremy Stover (Kadajett) <jeremy.ryan.stover@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "dependencies": {
+    "assert": "^1.3.0",
+    "base64url": "^1.0.6",
+    "confidence": "1.x.x",
+    "crypto": "0.0.3",
+    "glue": "3.x.x",
+    "hapi": "12.x.x",
+    "hoek": "3.x.x",
+    "moment": "^2.11.2",
+    "mongodb": "^2.1.7",
+    "mongoose": "^4.4.6",
+    "underscore": "^1.8.3",
+    "yub": "^0.10.12"
+  },
+  "devDependencies": {
+    "code": "2.x.x",
+    "lab": "8.x.x",
+    "nodemon": "1.x.x"
+  }
+}
